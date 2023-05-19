@@ -1,6 +1,6 @@
+INF = 0xFFFFFF
 
-
-graph = [[] for _ in range(100)]
+graph = [[INF for j in range(130)] for _ in range(130)]
 
 def solution():
     global graph
@@ -8,36 +8,25 @@ def solution():
     N = int(input())
     for i in range(N):
         li_tmp= list(input().split(" => "))
-        print(li_tmp)
-        c1 = ord(li_tmp[0]) - 65
-        c2 = ord(li_tmp[1]) - 65
+        c1 = ord(li_tmp[0])
+        c2 = ord(li_tmp[1])
+        graph[c1][c2] = 0
 
-        graph[c1].append([c2, False])
+    for k in range(130) :
+        for i in range(130) :
+            for j in range(130) :
+                graph[i][j] = min(graph[i][j], graph[i][k] + graph[k][j])
 
-    for index, edge in enumerate(graph) :
-        if len(edge) != 0 :
-            dfs(index)
-
-    print(graph)
-
-
-def dfs(start_point):
-    global graph
-
-    for index, edge in enumerate(graph[start_point]):
-        if edge[0] == start_point :
-            continue
-        if edge[1] == True :
-            for i in graph[edge[1]] :
-                if edge not in graph[start_point]:
-                    graph[start_point].append(i)
-            continue
-        edge[1] = True
-        if edge not in graph[start_point] :
-            graph[start_point].append(edge)
-        dfs(start_point)
-
-
+    answer = 0
+    for i, edge in enumerate(graph) :
+        for j, node in enumerate(edge) :
+            if i != j and node == 0 :
+                answer += 1
+    print(answer)
+    for i, edge in enumerate(graph) :
+        for j, node in enumerate(edge) :
+            if i != j and node == 0 :
+                print(chr(i), "=>", chr(j))
 solution()
 
 '''
@@ -58,4 +47,14 @@ B => C
 C => D
 D => A
 C => A
+
+7
+A => C
+A => B
+A => K
+C => B
+B => K
+M => M
+N => U
+
 '''
