@@ -9,3 +9,6 @@
 | `2023-05-18`      | [A와 B](https://www.acmicpc.net/problem/12904) | [풀이1] | [풀이2](https://github.com/msdio/algorithm/blob/main/jonghyun/A%EC%99%80%20B%2012904%20(2023-05-18).py) | [풀이3](https://github.com/msdio/algorithm/commit/56afce4f96c2960f5ad5b55e760095e6a5fc881e) |
 | `2023-05-19`      | [멍멍이 쓰다듬기](https://www.acmicpc.net/problem/1669) | [풀이1] | [풀이2] | [풀이3] |
 | `2023-05-19`      | [치즈](https://www.acmicpc.net/problem/2636) | [풀이1] | [풀이2](https://github.com/msdio/algorithm/blob/main/jonghyun/%EC%B9%98%EC%A6%88%202636%20(2023-05-19).py) | [풀이3] |
+| `2023-05-23`      | [공통 부분 문자열](https://www.acmicpc.net/problem/5582) | [풀이1] | [풀이2] | [풀이3] |
+| `2023-05-23`      | [유닛 이동시키기](https://www.acmicpc.net/problem/2194) | [풀이1] | [풀이2] | [풀이3] |
+
