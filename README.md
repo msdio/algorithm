@@ -13,4 +13,5 @@
 | `2023-05-23`      | [유닛 이동시키기](https://www.acmicpc.net/problem/2194) | [풀이1] | [풀이2] | [풀이3](https://github.com/msdio/algorithm/tree/main/juhyun) |
 | `2023-05-24`      | [스위치 켜고 끄기](https://www.acmicpc.net/problem/1244) | [풀이1](https://github.com/msdio/algorithm/blob/9ebcafdd7a2d7f392ca9bb02f0ac0d47bc183635/haeram/1244.py) | [풀이2](https://github.com/msdio/algorithm/blob/main/jonghyun/%EC%8A%A4%EC%9C%84%EC%B9%98%20%EC%BC%9C%EA%B3%A0%20%EB%81%84%EA%B8%B0%201244%20(2023-05-24).py) | [풀이3] |
 | `2023-05-24`      | [조 짜기](https://www.acmicpc.net/problem/2229) | [풀이1] | [풀이2](https://github.com/msdio/algorithm/blob/main/jonghyun/%EC%A1%B0%20%EC%A7%9C%EA%B8%B0%202229%20(2023-05-24).py) | [풀이3] |
-
+| `2023-05-25`      | [수열 정렬](https://www.acmicpc.net/problem/1015) | [풀이1](https://github.com/msdio/algorithm/blob/main/haeram/1015.py) | [풀이2] | [풀이3] |
+| `2023-05-25`      | [사다리 타기](https://www.acmicpc.net/problem/2469) | [풀이1] | [풀이2] | [풀이3] |
