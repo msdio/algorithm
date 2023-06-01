@@ -15,3 +15,6 @@
 | `2023-05-24`      | [조 짜기](https://www.acmicpc.net/problem/2229) | [풀이1] | [풀이2](https://github.com/msdio/algorithm/blob/main/jonghyun/%EC%A1%B0%20%EC%A7%9C%EA%B8%B0%202229%20(2023-05-24).py) | [풀이3] |
 | `2023-05-25`      | [수열 정렬](https://www.acmicpc.net/problem/1015) | [풀이1](https://github.com/msdio/algorithm/blob/main/haeram/1015.py) | [풀이2](https://github.com/msdio/algorithm/blob/main/jonghyun/%EC%88%98%EC%97%B4%20%EC%A0%95%EB%A0%AC%201015%20(2023-05-26).py) | [풀이3] |
 | `2023-05-25`      | [사다리 타기](https://www.acmicpc.net/problem/2469) | [풀이1] | [풀이2](https://github.com/msdio/algorithm/blob/main/jonghyun/%EC%82%AC%EB%8B%A4%EB%A6%AC%ED%83%80%EA%B8%B0%202479%20(2023-05-30).py) | [풀이3] |
+| `2023-05-26`      | [유닛 이동시키기](https://www.acmicpc.net/problem/2194) | [풀이1] | [풀이2] | [풀이3] |
+| `2023-05-31`      | [친구 팰린드롬](https://www.acmicpc.net/problem/15270) | [풀이1] | [풀이2] | [풀이3] |
+| `2023-05-31`      | [인형들](https://www.acmicpc.net/problem/15954) | [풀이1] | [풀이2] | [풀이3] |
