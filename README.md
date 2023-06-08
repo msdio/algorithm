@@ -20,3 +20,5 @@
 | `2023-05-31`      | [인형들](https://www.acmicpc.net/problem/15954) | [풀이1] | [풀이2] | [풀이3] |
 | `2023-06-07`      | [RGB 거리 2](https://www.acmicpc.net/problem/17404) | [풀이1] | [풀이2](https://github.com/msdio/algorithm/blob/main/jonghyun/RGB%20%EA%B1%B0%EB%A6%AC%202%2017404%20(2023-06-07).py) | [풀이3] |
 | `2023-06-07`      | [상어 초등학교](https://www.acmicpc.net/problem/21608) | [풀이1] | [풀이2](https://github.com/msdio/algorithm/blob/main/jonghyun/%EC%83%81%EC%96%B4%20%EC%B4%88%EB%93%B1%ED%95%99%EA%B5%90%2021608%20(2023-06-07).py) | [풀이3] |
+| `2023-06-08`      | [게임 닉네임](https://www.acmicpc.net/problem/16934) | [풀이1] | [풀이2](https://github.com/msdio/algorithm/blob/main/jonghyun/%EA%B2%8C%EC%9E%84%20%EB%8B%89%EB%84%A4%EC%9E%84%2016934%20(2023-06-08).py) | [풀이3] |
+| `2023-06-08`      | [오목](https://www.acmicpc.net/problem/2615) | [풀이1] | [풀이2] | [풀이3] |
