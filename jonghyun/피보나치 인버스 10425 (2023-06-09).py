@@ -1,4 +1,4 @@
-# from decimal import Decimal
+# Python3부터는 int의 최댓값이 사라짐.
 
 def bisect(target) :
     global dp
