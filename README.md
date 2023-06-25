@@ -24,4 +24,5 @@
 | `2023-06-08`      | [오목](https://www.acmicpc.net/problem/2615) | [풀이1] | [풀이2] | [풀이3] |
 | `2023-06-09`      | [피보나치 인버스](https://www.acmicpc.net/problem/16934) | [풀이1] | [풀이2](https://github.com/msdio/algorithm/blob/main/jonghyun/%ED%94%BC%EB%B3%B4%EB%82%98%EC%B9%98%20%EC%9D%B8%EB%B2%84%EC%8A%A4%2010425%20(2023-06-09).py) | [풀이3] |
 | `2023-06-09`      | [우주 탐사선](https://www.acmicpc.net/problem/17182) | [풀이1] | [풀이2](https://github.com/msdio/algorithm/blob/main/jonghyun/%EC%9A%B0%EC%A3%BC%20%ED%83%90%EC%82%AC%EC%84%A0%2017182%20(2023-06-09).py) | [풀이3] |
+| `2023-06-14`      | [애너그램](https://www.acmicpc.net/problem/6443) | [풀이1] | [풀이2](https://github.com/msdio/algorithm/blob/main/jonghyun/%EC%95%A0%EB%84%88%EA%B7%B8%EB%9E%A8%206443%20(2023-06-14).py) | [풀이3] |
 
