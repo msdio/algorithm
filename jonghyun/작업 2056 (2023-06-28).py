@@ -1,4 +1,3 @@
-
 N = int(input())
 
 task_time = [0] * (N+1)
