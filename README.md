@@ -27,4 +27,6 @@
 | `2023-06-14`      | [애너그램](https://www.acmicpc.net/problem/6443) | [풀이1] | [풀이2](https://github.com/msdio/algorithm/blob/main/jonghyun/%EC%95%A0%EB%84%88%EA%B7%B8%EB%9E%A8%206443%20(2023-06-14).py) | [풀이3] |
 | `2023-06-23`      | [정상회담 2](https://www.acmicpc.net/problem/1670) | [풀이1] | [풀이2] | [풀이3] |
 | `2023-06-26`      | [전기가 부족해](https://www.acmicpc.net/problem/10423) | [풀이1] | [풀이2](https://github.com/msdio/algorithm/commit/204139a44c75aebd2c466fa32561a18df1dd0448) | [풀이3] |
+| `2023-06-27`      | [가희와 탑](https://www.acmicpc.net/problem/24337) | [풀이1] | [풀이2](https://github.com/msdio/algorithm/blob/main/jonghyun/%EA%B0%80%ED%9D%AC%EC%99%80%20%ED%83%91%2024337%20(2023-06-27).py) | [풀이3] |
+| `2023-06-28`      | [작업](https://www.acmicpc.net/problem/2056) | [풀이1] | [풀이2](https://github.com/msdio/algorithm/blob/main/jonghyun/%EC%9E%91%EC%97%85%202056%20(2023-06-28).py) | [풀이3] |
 
