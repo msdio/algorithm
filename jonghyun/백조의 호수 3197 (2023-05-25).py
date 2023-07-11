@@ -14,23 +14,6 @@ for i in range(r) :
     board.append(li)
 
 
-class Main :
-    board = []
-    swan_check = []
-    swan_point = []
-    swan1_dq = deque()
-    swan2_dq = deque()
-    ice1_dq = deque()
-    arrows = [(1,0), (-1,0), (0,1), (0,-1)]
-    r = 0
-    c = 0
-
-
-
-main = Main()
-main.solution()
-
-
 
 '''
 4 11
