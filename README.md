@@ -1,6 +1,9 @@
 # algorithm
 
+## 진행방식
+평일 9시에 45분씩 풀고, 각자 2-3분 내로 푼 방식 공유. 골드 이상 문제로 풀이
 
+## 문제
 | 날짜 | 문제 | msdio | jhbaik1501 | userJu
 | :-------- | :--------- | :--- | :--- | :--- |
 | `2023-05-17`      | [게임](https://www.acmicpc.net/problem/1072) | [풀이1](https://github.com/msdio/algorithm/blob/main/haeram/1072.py) | [풀이2](https://github.com/msdio/algorithm/blob/main/jonghyun/%EA%B2%8C%EC%9E%84%201072%20(2023-05-17).py) | [풀이3] |
