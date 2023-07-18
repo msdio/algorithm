@@ -35,4 +35,4 @@
 | `2023-07-10`      | [정육점](https://www.acmicpc.net/problem/2258) | [풀이1] | [풀이2](https://github.com/msdio/algorithm/blob/main/jonghyun/%EC%A0%95%EC%9C%A1%EC%A0%90%202258%20(2023-07-10).py) | [풀이3] |
 | `2023-07-11`      | [상자퍼즐](https://www.acmicpc.net/problem/1721) | [풀이1] | [풀이2](https://github.com/msdio/algorithm/blob/main/jonghyun/%EC%83%81%EC%9E%90%ED%8D%BC%EC%A6%90%201721%20(2023-07-11).py) | [풀이3] |
 | `2023-07-17`      | [배](https://www.acmicpc.net/problem/1092) | [풀이1] | [풀이2] | [풀이3] |
-| `2023-07-18`      | [배](https://www.acmicpc.net/problem/17135) | [풀이1] | [풀이2](https://github.com/msdio/algorithm/blob/main/jonghyun/%EB%B0%B0%201092%20(2023-07-17).py) | [풀이3] |
+| `2023-07-18`      | [캐슬 디펜스](https://www.acmicpc.net/problem/17135) | [풀이1] | [풀이2](https://github.com/msdio/algorithm/blob/main/jonghyun/%EB%B0%B0%201092%20(2023-07-17).py) | [풀이3] |
