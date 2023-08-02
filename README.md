@@ -1,6 +1,9 @@
 # algorithm
 
+## 진행방식
+평일 9시에 45분씩 풀고, 각자 2-3분 내로 푼 방식 공유. 골드 이상 문제로 풀이
 
+## 문제
 | 날짜 | 문제 | msdio | jhbaik1501 | userJu
 | :-------- | :--------- | :--- | :--- | :--- |
 | `2023-05-17`      | [게임](https://www.acmicpc.net/problem/1072) | [풀이1](https://github.com/msdio/algorithm/blob/main/haeram/1072.py) | [풀이2](https://github.com/msdio/algorithm/blob/main/jonghyun/%EA%B2%8C%EC%9E%84%201072%20(2023-05-17).py) | [풀이3] |
@@ -14,7 +17,7 @@
 | `2023-05-24`      | [스위치 켜고 끄기](https://www.acmicpc.net/problem/1244) | [풀이1](https://github.com/msdio/algorithm/blob/9ebcafdd7a2d7f392ca9bb02f0ac0d47bc183635/haeram/1244.py) | [풀이2](https://github.com/msdio/algorithm/blob/main/jonghyun/%EC%8A%A4%EC%9C%84%EC%B9%98%20%EC%BC%9C%EA%B3%A0%20%EB%81%84%EA%B8%B0%201244%20(2023-05-24).py) | [풀이3] |
 | `2023-05-24`      | [조 짜기](https://www.acmicpc.net/problem/2229) | [풀이1] | [풀이2](https://github.com/msdio/algorithm/blob/main/jonghyun/%EC%A1%B0%20%EC%A7%9C%EA%B8%B0%202229%20(2023-05-24).py) | [풀이3] |
 | `2023-05-25`      | [수열 정렬](https://www.acmicpc.net/problem/1015) | [풀이1](https://github.com/msdio/algorithm/blob/main/haeram/1015.py) | [풀이2](https://github.com/msdio/algorithm/blob/main/jonghyun/%EC%88%98%EC%97%B4%20%EC%A0%95%EB%A0%AC%201015%20(2023-05-26).py) | [풀이3] |
-| `2023-05-25`      | [사다리 타기](https://www.acmicpc.net/problem/2469) | [풀이1] | [풀이2](https://github.com/msdio/algorithm/blob/main/jonghyun/%EC%82%AC%EB%8B%A4%EB%A6%AC%ED%83%80%EA%B8%B0%202479%20(2023-05-30).py) | [풀이3] |
+| `2023-05-25`      | [사다리 타기](https://www.acmicpc.net/problem/2469) | [풀이1](https://github.com/msdio/algorithm/commit/22941589d8e3bc0f32f5647939744b261d121061) | [풀이2](https://github.com/msdio/algorithm/blob/main/jonghyun/%EC%82%AC%EB%8B%A4%EB%A6%AC%ED%83%80%EA%B8%B0%202479%20(2023-05-30).py) | [풀이3] |
 | `2023-05-26`      | [유닛 이동시키기](https://www.acmicpc.net/problem/2194) | [풀이1] | [풀이2] | [풀이3] |
 | `2023-05-31`      | [친구 팰린드롬](https://www.acmicpc.net/problem/15270) | [풀이1] | [풀이2] | [풀이3] |
 | `2023-05-31`      | [인형들](https://www.acmicpc.net/problem/15954) | [풀이1] | [풀이2] | [풀이3] |
@@ -35,3 +38,4 @@
 | `2023-07-10`      | [정육점](https://www.acmicpc.net/problem/2258) | [풀이1] | [풀이2](https://github.com/msdio/algorithm/blob/main/jonghyun/%EC%A0%95%EC%9C%A1%EC%A0%90%202258%20(2023-07-10).py) | [풀이3] |
 | `2023-07-11`      | [상자퍼즐](https://www.acmicpc.net/problem/1721) | [풀이1] | [풀이2](https://github.com/msdio/algorithm/blob/main/jonghyun/%EC%83%81%EC%9E%90%ED%8D%BC%EC%A6%90%201721%20(2023-07-11).py) | [풀이3] |
 | `2023-07-17`      | [배](https://www.acmicpc.net/problem/1092) | [풀이1] | [풀이2] | [풀이3] |
+| `2023-07-18`      | [캐슬 디펜스](https://www.acmicpc.net/problem/17135) | [풀이1] | [풀이2](https://github.com/msdio/algorithm/blob/main/jonghyun/%EB%B0%B0%201092%20(2023-07-17).py) | [풀이3] |
