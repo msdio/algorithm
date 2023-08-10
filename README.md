@@ -40,3 +40,4 @@
 | `2023-07-17`      | [배](https://www.acmicpc.net/problem/1092) | [풀이1] | [풀이2] | [풀이3] |
 | `2023-07-18`      | [캐슬 디펜스](https://www.acmicpc.net/problem/17135) | [풀이1] | [풀이2](https://github.com/msdio/algorithm/blob/main/jonghyun/%EB%B0%B0%201092%20(2023-07-17).py) | [풀이3] |
 | `2023-08-02`      | [등수찾기](https://www.acmicpc.net/problem/17616) | [풀이1] | [풀이2](https://github.com/msdio/algorithm/blob/main/jonghyun/%EB%93%B1%EC%88%98%20%EC%B0%BE%EA%B8%B0%2017616%20(2023-08-02).py) | [풀이3] |
+| `2023-08-09`      | [컬러볼](https://www.acmicpc.net/problem/10800) | [풀이1] | [풀이2](https://github.com/msdio/algorithm/blob/main/jonghyun/%EC%BB%AC%EB%9F%AC%EB%B3%BC%2010800%20(2023-08-09).py) | [풀이3] |
