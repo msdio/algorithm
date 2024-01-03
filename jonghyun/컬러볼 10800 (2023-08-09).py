@@ -31,8 +31,8 @@ for i in all_arr :
     accumulate_sum_all_arr.append(accumulate_sum)
     accumulate_sum += i
 
-print(arr, all_arr)
-print(accumulate_sum_arr, accumulate_sum_all_arr)
+# print(arr, all_arr)
+# print(accumulate_sum_arr, accumulate_sum_all_arr)
 
 for history in histories :
     C, S = history
