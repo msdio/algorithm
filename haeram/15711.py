@@ -1,5 +1,78 @@
 from sys import stdin
 
+'''
+1. a+b 가 짝수면 YES
+2. a+b 가 홀수라면 a+b-2 가 소수인지 확인
+=> 5 * 10^8 로 시간 초과
+'''
+
+# t = int(stdin.readline())
+
+# def is_prime(n):
+#     for i in range(2, n+1):
+#         if i*i > n:
+#             break
+
+#         if (n % i == 0):
+#             return False
+
+#     return True
+
+
+# for _ in range(t):
+#     a, b = map(int, stdin.readline().split())
+
+#     if ((a+b) % 2 == 0):
+#         print('YES')
+#         continue
+
+#     if (is_prime(a+b-2)):
+#         print('YES')
+#     else:
+#         print('NO')
+
+#####################################################
+
+'''
+최대 길이는 4 * 10^12
+이것의 root인 2 * 10^6 까지 소수를 모두 구함
+
+1. a+b 가 짝수면 YES
+2. a+b 가 홀수라면 a+b-2 가 소수인지 확인
+
+2 * 10^6 + 500 으로 시간복잡도가 줄음
+'''
+
+# t = int(stdin.readline())
+
+# max_len = 2 * 10**6 + 1
+# is_prime = [1 for i in range(max_len)]
+# is_prime[0] = 0
+# is_prime[1] = 0
+
+# # get all prime numbers
+# for i in range(2, max_len):
+#     if (not is_prime[i]):
+#         continue
+
+#     for j in range(2*i, max_len, i):
+#         is_prime[j] = 0
+
+# # main
+# for _ in range(t):
+#     a, b = map(int, stdin.readline().split())
+
+#     if a+b < 4:
+#         print('NO')
+#     elif (a+b) % 2 == 0:
+#         print('YES')
+#     else:
+#         if (is_prime[a+b-2]):
+#             print('YES')
+#         else:
+#             print('NO')
+
+
 """
 A+B가 2가 아닌 짝수면 가능하다.
 
