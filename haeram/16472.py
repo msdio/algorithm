@@ -14,8 +14,6 @@ from sys import stdin
 
 문자의 개수를 세다가, 2개가 초과되는 순간 start 포인터를 증가시키면서
 문자를 지우고 문자 개수가 2개 될 때까지 하나씩 지운다.
-
-
 """
 
 n = int(stdin.readline())
@@ -27,30 +25,29 @@ alp = {}
 start = 0
 end = 0
 ans = 0
+cur = 0
 while end < len_lang:
+    # 문자가 n개 이상이면, n개가 될 때까지 start를 앞으로 민다.
     if len(alp) > n:
-        ans = 0
         while len(alp) > n:
             alp[lang[start]] -= 1
 
             if alp[lang[start]] == 0:
                 del alp[lang[start]]
 
+            cur -= 1
             start += 1
 
     # 이미 있는 알파벳이라면 길이 증가
     if lang[end] in alp:
         alp[lang[end]] += 1
-        ans += 1
+        cur += 1
     else:
         alp[lang[end]] = 1
-        if len(alp) > 2:
-            ans = max(ans, )
-            ans = 0
-        else:
-            ans += 1
+        cur += 1
 
     end += 1
-    ans = max(ans, )
+    if len(alp) <= n:
+        ans = max(ans, cur)
 
 print(ans)
