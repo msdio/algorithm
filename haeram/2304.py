@@ -1,47 +1,36 @@
 from sys import stdin
 
+'''
+1. 기둥들을 x좌표 순으로 정렬한다.
+2. 왼쪽 -> 오른쪽으로 기둥의 max값을 업데이트 한다.
+2. 오른쪽 -> 왼쪽으로 똑같이 한다.
+
+2와 3 중 최소값들만으로 구성된 배열을 생성한다.
+배열의 총합이 정답
+'''
+
 n = int(stdin.readline())
-pillars = [list(map(int, stdin.readline().split())) for _ in range(n)]
 
-pillars.sort(key=lambda x: x[0])
+pillars = [0] * 1001
+max_x = 0
+for _ in range(n):
+    l, h = map(int, stdin.readline().split())
+    pillars[l] = h
+    max_x = max(max_x, l+1)
 
-from_left = []
-from_right = []
-psum_left = [0 for _ in range(n-1)]
-psum_right = [0 for _ in range(n-1)]
+from_left = [0] * max_x
+from_right = [0] * max_x
 
-# left
-cur_height = pillars[0][1]
-for i in range(1, n):
-    [l, h] = pillars[i]
+for i in range(1, max_x):
+    from_left[i] = max(from_left[i-1], pillars[i])
 
-    from_left.append(cur_height * (l - pillars[i-1][0]))
-
-    if (h > cur_height):
-        cur_height = h
-
-psum_left[0] = from_left[0]
-for i in range(1, n-1):
-    psum_left[i] = psum_left[i-1] + from_left[i]
-
-# right
-cur_height = pillars[-1][1]
-for i in range(n-1, 0, -1):
-    [l, h] = pillars[i]
-
-    if (h > cur_height):
-        cur_height = h
-
-    from_right.insert(0, (cur_height * (l - pillars[i-1][0])))
+for i in range(max_x-1, 0, -1):
+    from_right[i-1] = max(from_right[i], pillars[i])
 
 
-psum_right[-1] = from_right[-1]
-for i in range(n-2, 0, -1):
-    psum_right[i-1] = psum_right[i] + from_right[i]
+ans = []
+for i in range(1, max_x):
+    ans.append(min(from_left[i], from_right[i-1]))
 
 
-print(from_left)
-print(psum_left)
-
-print(from_right)
-print(psum_right)
+print(sum(ans))
