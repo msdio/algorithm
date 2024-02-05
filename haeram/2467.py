@@ -56,47 +56,44 @@ arr = list(map(int, stdin.readline().split()))
 arr.sort()
 
 
-def find_liquid(target):  # return current min value and target
+def find_liquid(target, outer_idx):  # return current min value and target
     start = 0
     end = n - 1
 
-    cur_min = 2 * 10**9 + 1
+    cur_min = 2*10**9 + 1
     idx = -1
     while start <= end:
-        if arr[start] == target:
+        if outer_idx == start:
             start += 1
             continue
-
-        if arr[end] == target:
+        if outer_idx == end:
             end -= 1
             continue
 
-        mid = (start + end) // 2
+        mid = (start+end)//2
 
-        diff = target + arr[mid]
-
-        if abs(diff) < cur_min:
+        if abs(target+arr[mid]) < cur_min:  # update minimum value
+            cur_min = abs(target+arr[mid])
             idx = mid
-            cur_min = abs(diff)
 
-        if diff == 0:  # 0이면 더 비교할 필요도 없다
-            return 0
-
-        if diff < 0:
-            start = mid + 1
+        if target+arr[mid] < 0:  # 왼쪽은 다 버려도 됨
+            start = mid+1
+        elif target+arr[mid] > 0:  # 오른쪽은 다 버려도 됨
+            end = mid-1
         else:
-            end = mid - 1
+            return cur_min, mid
 
     return cur_min, idx
 
 
 ans = [0, 0]
 val = 2 * 10**9 + 1
-for liquid in arr:
-    cand, idx = find_liquid(liquid)
+for i in range(n):
+    liquid = arr[i]
+    cand_value, index = find_liquid(liquid, i)
 
-    if cand < val:
-        val = cand
-        ans = [liquid, arr[idx]]
+    if cand_value < val:
+        val = cand_value
+        ans = [liquid, arr[index]]
 
 print(*sorted(ans))
