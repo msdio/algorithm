@@ -104,34 +104,78 @@ MBTI를 숫자로 치환한다. 0 ~ 15까지.
 
 """
 
-t = int(stdin.readline())
+# t = int(stdin.readline())
 
 
-def get_distance(s1, s2, s3):
-    cnt = 0
+# def get_distance(s1, s2, s3):
+#     cnt = 0
+#     for i in range(4):
+#         if s1[i] != s2[i]:
+#             cnt += 1
+#         if s2[i] != s3[i]:
+#             cnt += 1
+#         if s1[i] != s3[i]:
+#             cnt += 1
+
+#     return cnt
+
+
+# for _ in range(t):
+#     n = int(stdin.readline())
+#     arr = list(stdin.readline().split())
+
+#     if n > 16 * 2:
+#         print(0)
+#         continue
+
+#     ans = 48
+#     for i in range(n):
+#         for j in range(i + 1, n):
+#             for k in range(j + 1, n):
+#                 ans = min(ans, get_distance(arr[i], arr[j], arr[k]))
+
+#     print(ans)
+
+##################################################################################
+
+
+'''
+16개 이상 나오면 겹치는게 무조건 1개는 있다.
+32개 이상 나오면 겹치는게 무조건 2개는 있다.
+
+그럼 32개 이상이면 답이 0이라는거다.
+
+그럼 나머지는 완탐하면 된다.
+'''
+
+
+def cal_diff(m1, m2, m3):
+    diff = 0
     for i in range(4):
-        if s1[i] != s2[i]:
-            cnt += 1
-        if s2[i] != s3[i]:
-            cnt += 1
-        if s1[i] != s3[i]:
-            cnt += 1
+        if m1[i] != m2[i]:
+            diff += 1
+        if m2[i] != m3[i]:
+            diff += 1
+        if m3[i] != m1[i]:
+            diff += 1
 
-    return cnt
+    return diff
 
+
+t = int(stdin.readline())
 
 for _ in range(t):
     n = int(stdin.readline())
-    arr = list(stdin.readline().split())
+    mbtis = list(stdin.readline().split())
 
-    if n > 16 * 2:
+    if n > 32:
         print(0)
         continue
 
-    ans = 48
+    cnt = 12  # 최대 거리는 4 * 3
     for i in range(n):
-        for j in range(i + 1, n):
-            for k in range(j + 1, n):
-                ans = min(ans, get_distance(arr[i], arr[j], arr[k]))
+        for j in range(i+1, n):
+            for k in range(j+1, n):
+                cnt = min(cnt, cal_diff(mbtis[i], mbtis[j], mbtis[k]))
 
-    print(ans)
+    print(cnt)
