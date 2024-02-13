@@ -45,22 +45,48 @@ power[start]와 power[end] 중 더 작은 쪽의 포인터를 옮기면서 계�
 사이에 개발자가 한 명은 있어야 하기 때문에, end - start > 1 인 경우까지만 보면 된다.
 """
 
-n = int(stdin.readline())
-power = list(map(int, stdin.readline().split()))
+# n = int(stdin.readline())
+# power = list(map(int, stdin.readline().split()))
 
-ans = 0
+# ans = 0
+# start = 0
+# end = n - 1
+
+# ans = 0
+# while start + 1 < end:
+#     cur = (end - start - 1) * min(power[start], power[end])
+
+#     ans = max(ans, cur)
+
+#     if power[start] > power[end]:
+#         end -= 1
+#     else:
+#         start += 1
+
+# print(ans)
+
+##################################################################
+
+"""
+시작점과 끝점을 각각 포인터로 두고
+양쪽 점 중 더 작은 값을 안쪽으로 이동시키면서 값을 갱신한다
+"""
+
+n = int(stdin.readline())
+arr = list(map(int, stdin.readline().split()))
+
 start = 0
 end = n - 1
 
 ans = 0
-while start + 1 < end:
-    cur = (end - start - 1) * min(power[start], power[end])
+while start < end:
+    ans = max(ans, (end - start - 1) * min(arr[start], arr[end]))
 
-    ans = max(ans, cur)
-
-    if power[start] > power[end]:
+    if arr[start] > arr[end]:
         end -= 1
     else:
         start += 1
+
+ans = max(ans, (end - start) * min(arr[start], arr[end]))
 
 print(ans)
